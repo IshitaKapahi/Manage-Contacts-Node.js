@@ -1,4 +1,4 @@
-This file basicalls contains the flow of the project for better understanding.
+This file basicaly contains the flow of the project for better understanding.
 
 CONTACT-MANAGEMENT:
   { Contacts creates with all api endpoints req > mongodb setup & connection and contact db & user db schema >
@@ -10,9 +10,9 @@ CONTACT-MANAGEMENT:
 => Then we create the router of the project in userRoutes.js which includes all contact routes i.e get all contacts,create,delete,update.
 => Then we created contactController.js file in controller folder  to state the logic behind all the routes.
 => Then with the help of thunderclient extension we check our api call through new request.
-=> Then we did the mongodb setup on its official website and made connection it with our node with the help of mongoose.
+=> Then we did the mongodb setup on its official website and made its connection  with our node with the help of mongoose.
 => Then we created the schema of our contacts db in contactMedal.js
 => After testing the backend of contacts though thunderclient ...we goes on to User Authentication . Everything will be same in the process.
 => We created the routes of User i.e login,register,current in userRoutes.js with their all logics in userController.js and its schema in contactModel.js
 => After testing the logic of routes ..we created the jwt & accesstoken to validate the user login info and current info 
-=> In validateTokenHandller.js we check the if the accessToken is correct or not.
+=> In validateTokenHandller.js we check that if the accessToken is correct or not.
